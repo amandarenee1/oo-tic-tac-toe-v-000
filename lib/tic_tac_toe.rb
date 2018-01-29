@@ -32,3 +32,5 @@ class TicTacToe
   end
 
 end
+
+board = ["X"," "," "," ","O"," "," "," "," "]
