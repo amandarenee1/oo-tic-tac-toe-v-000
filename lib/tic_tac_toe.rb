@@ -49,4 +49,3 @@ class TicTacToe
     board[position] = char
   end
 end
-end
