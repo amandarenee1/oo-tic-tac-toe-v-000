@@ -34,8 +34,8 @@ class TicTacToe
       return "O"
     end
 
-  def move(board, position, current_player = "X")
-    board[position] = current_player
+  def move(board, position, char = "X")
+    board[position] = char
   end
 end
 end
