@@ -36,13 +36,6 @@ class TicTacToe
 
   def move(board, index, current_player = "X")
     board[index] = current_player
-    game
   end
-
-  
 end
 end
-
-game = TicTacToe.new
-game.move(0, "X")
-game.move(4, "O")
