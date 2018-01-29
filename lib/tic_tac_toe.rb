@@ -27,7 +27,6 @@ class TicTacToe
   end
 
   def move(board, index, char = "X")
-    board[position] = char
     return board
   end
 
