@@ -40,4 +40,3 @@ class TicTacToe
 
 end
 
-board = ["X"," "," "," ","O"," "," "," "," "]
