@@ -32,9 +32,9 @@ class TicTacToe
       return "X"
     else
       return "O"
-    end
+  end
 
-    def position_taken?(board, position)
+  def position_taken?(board, position)
     if board[position] == " "
       false
     elsif board[position] == ""
@@ -43,7 +43,7 @@ class TicTacToe
       false
     else board[position] == "X" || "O"
       true
-    end
+  end
 
   def move(board, position, char = "X")
     board[position] = char
